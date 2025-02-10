@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+<h1 class="h1">Titulo 1</h1>
+<h2 class="h2">Titulo 2</h2>
+<h3 class="h3">Titulo 3</h3>
+<h4 class="h4">Titulo 4</h4>
+<h5 class="h5">Titulo 5</h5>
+<h6 class="h6">Titulo 6</h6>
+
+
+    <p class="lead">Texto destacado en formato mas grande</p>
+    <p>Texto destacado en formato mas grande</p>
+
+<p class="text-start">Texto alineado a la izquierda</p>
+<p class="text-center">Texto aliniado al centro</p>
+<p class="text-end">Texto aliniado a la derecha</p>
+
+<p class="text-primary text-center">Texto de color azul</p>
+    <p class="text-danger">Texto de color Rojo</p>
+    <p class="text-success">Texto de color Verde</p>
+
+<div class="m-3">Margenes en todas las direcciones</div>
+<div class="mt-3 mb-5">Margen superior e inferior</div>
+
+
+<div class="p-4 bg-light border"> con relleno interno de 4 unidades</div>
+
+<div class="mx-auto" style="width: 200px;">Elemento centrado horizontal</div>
+
+<button class="btn btn-primary">Primario</button>
+<button class="btn btn-secondary">Secundario</button>
+<button class="btn btn-success">Exito</button>
+<button class="btn btn-danger">Alerta</button>
+
+<button class="btn btn-primary btn-sm">Primario</button>
+<button class="btn btn-outline-primary btn-lg">Primario</button>
+
+<form>
+    <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Contraseña">
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+<form>
+<div class="input-group mb-3">
+    <span class="input-group-text">Nomre</span>
+    <input type="text" class="form-control" placeholder="Nombre de usuario">
+</div>
+<div class="input-group mb-3">
+    <span class="input-group-text">Apellido</span>
+    <input type="text" class="form-control" placeholder="Nombre de usuario">
+</div>
+</form>
+
+
+<form>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control is-valid" id="nombre" required>
+        <div class="valid-feedback">¡Se ve bien!</div>
+        <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+<form>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido">
+        </div>
+    </div>
+</form>
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Opción 1</a></li>
+        <li><a class="dropdown-item" href="#">Opción 2</a></li>
+    </ul>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" id="terminos">
+    <label class="form-check-label" for="terminos">Aceptar términos y condiciones</label>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="opciones" id="opcion1">
+    <label class="form-check-label" for="opcion1">Opción 1</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="opciones" id="opcion2">
+    <label class="form-check-label" for="opcion2">Opción 2</label>
+</div>
+
+<div >
+
+    <h5 class="mb-5" >TAREA CLASE 3</h5>
+</div>
+
+
+<form>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido">
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="mail" class="form-label">Mail</label>
+            <input type="text" class="form-control" id="mail">
+        </div>
+        <div class="col-md-6">
+            <label for="contrasenia" class="form-label">Constraseña</label>
+            <input type="password" class="form-control" id="contrasenia">
+        </div>
+    </div>
+</form>
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Argentina</a></li>
+        <li><a class="dropdown-item" href="#">Otros</a></li>
+    </ul>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" id="terminos">
+    <label class="form-check-label" for="terminos">Aceptar términos y condiciones</label>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="opciones" id="opcion1">
+    <label class="form-check-label" for="opcion1">Suscribirme</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="opciones" id="opcion2">
+    <label class="form-check-label" for="opcion2">En otro momento</q></label>
+</div>
+<button type="submit" class="btn btn-primary">Enviar</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
